@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Learn Ruby the Hard Way Exercise 11"
+date:   2022-2-14 00:02:00 -0700 #This can be today's date, it doesn't really matter what day/time you give it.
+categories: jekyll update
+---
+```
+print "How olds are you?"
+age = gets.chomp()
+print "How tall are you?"
+height = gets.chomp()
+print "How much do you weigh?"
+weight = gets.chomp()
+
+puts "So you're #{age} old, #{height} tall and #{weight} heavy."
+```
